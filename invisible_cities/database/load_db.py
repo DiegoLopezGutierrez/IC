@@ -12,6 +12,12 @@ class DetDB:
     next100    = os.environ['ICTDIR'] + '/invisible_cities/database/localdb.NEXT100DB.sqlite3'
     flex100    = os.environ['ICTDIR'] + '/invisible_cities/database/localdb.Flex100DB.sqlite3'
     flexs13p15 = os.environ['ICTDIR'] + '/invisible_cities/database/localdb.flex.s1.3mmp15mm.sqlite3'
+    flexs13p7  = os.environ['ICTDIR'] + '/invisible_cities/database/localdb.flex.s1.3mmp7mm.sqlite3'
+    flexs30p15 = os.environ['ICTDIR'] + '/invisible_cities/database/localdb.flex.s3.0mmp15mm.sqlite3'
+    flexs30p7  = os.environ['ICTDIR'] + '/invisible_cities/database/localdb.flex.s3.0mmp7mm.sqlite3'
+    flexs60p15 = os.environ['ICTDIR'] + '/invisible_cities/database/localdb.flex.s6.0mmp15mm.sqlite3'
+    flexs60p7  = os.environ['ICTDIR'] + '/invisible_cities/database/localdb.flex.s6.0mmp7mm.sqlite3'
+    flexs60p6  = os.environ['ICTDIR'] + '/invisible_cities/database/localdb.flex.s6.0mmp6mm.sqlite3'
 
 def tmap(*args):
     return tuple(map(*args))

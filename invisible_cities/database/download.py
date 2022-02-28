@@ -73,7 +73,10 @@ def loadDB(dbname : str, tables : list):
 
 if __name__ == '__main__':
 
-    dbnames = ['NEWDB', 'DEMOPPDB', 'NEXT100DB', 'Flex100DB', 'flex.s1.3mmp15mm']
+    dbnames = ['NEWDB', 'DEMOPPDB', 'NEXT100DB', 'Flex100DB', 
+               'flex.s1.3mmp15mm', 'flex.s1.3mmp7mm',
+               'flex.s3.0mmp15mm', 'flex.s3.0mmp7mm',
+               'flex.s6.0mmp15mm', 'flex.s6.0mmp7mm', 'flex.s6.0mmp6mm']
     tables  = ['DetectorGeo','PmtBlr','ChannelGain','ChannelMapping','ChannelMask',
                'PmtNoiseRms','ChannelPosition','SipmBaseline', 'SipmNoisePDF',
                'PMTFEMapping', 'PMTFELowFrequencyNoise']
