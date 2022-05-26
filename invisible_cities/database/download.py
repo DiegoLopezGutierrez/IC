@@ -71,7 +71,7 @@ def loadDB(dbname : str, tables : list):
         copy_all_rows(conn_sqlite, cursor_sqlite, cursor_mysql, table)
 
 
-dbnames        = ('NEWDB', 'DEMOPPDB', 'NEXT100DB', 'Flex100DB')
+dbnames        = ('NEWDB', 'DEMOPPDB', 'NEXT100DB', 'Flex100DB', 'flexs13p15')
 common_tables  = ('DetectorGeo','PmtBlr','ChannelGain','ChannelMapping','ChannelMask',
                   'PmtNoiseRms','ChannelPosition','SipmBaseline', 'SipmNoisePDF',
                   'PMTFEMapping', 'PMTFELowFrequencyNoise')
