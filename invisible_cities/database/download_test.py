@@ -39,6 +39,7 @@ def test_table_assignment(dbname):
         assert name in db.table_dict[dbname]
 
 
+@mark.skip()
 @mark.parametrize('dbname', db.dbnames)
 def test_tables_exist(dbname):
     connMySql  = pymysql.connect(host="neutrinos1.ific.uv.es",
